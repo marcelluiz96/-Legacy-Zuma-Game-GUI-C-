@@ -8,7 +8,7 @@ Although the code probably won't look as good (due to those being my first progr
 - Lucas Pinheiro Otaviano André (Github: St4rk), which made this project far better than i would have alone. Also memory-leak free <3.
 - Marcel Luiz de Oliveira Mendonça (Github: marcelluiz96)
 
-## Useful methods
+## Implementations
 
 Along follow some of the methods that may be of use in similar projects:
 
