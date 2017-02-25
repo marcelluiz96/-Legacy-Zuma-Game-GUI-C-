@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1385955581 source:c:\users\lucas-stark\desktop\edb zuma\zuma\main.cpp
+	"zuma_sdl.h"
+
+1385964173 c:\users\lucas-stark\desktop\edb zuma\zuma\zuma_stl.h
+	<SDL/SDL.h>
+	<iostream>
+	<list>
+	<algorithm>
+	<cstring>
+	<sstream>
+	<cstdio>
+	<iterator>
+	<fstream>
+
+1385969928 source:c:\users\lucas-stark\desktop\edb zuma\zuma\zuma_stl.cpp
+	"zuma_stl.h"
+
+1385967189 c:\users\lucas-stark\desktop\edb zuma\zuma\zuma_sdl.h
+	"zuma_stl.h"
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+
+1385968477 source:c:\users\lucas-stark\desktop\edb zuma\zuma\zuma_sdl.cpp
+	"zuma_sdl.h"
+
+1385959181 source:c:\users\marcel\desktop\edb - zuma - final\zuma\main.cpp
+	"zuma_sdl.h"
+
+1385970789 c:\users\marcel\desktop\edb - zuma - final\zuma\zuma_sdl.h
+	"zuma_stl.h"
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+
+1385967773 c:\users\marcel\desktop\edb - zuma - final\zuma\zuma_stl.h
+	<SDL/SDL.h>
+	<iostream>
+	<list>
+	<algorithm>
+	<cstring>
+	<sstream>
+	<cstdio>
+	<iterator>
+	<fstream>
+
+1385972077 source:c:\users\marcel\desktop\edb - zuma - final\zuma\zuma_sdl.cpp
+	"zuma_sdl.h"
+
+1385973528 source:c:\users\marcel\desktop\edb - zuma - final\zuma\zuma_stl.cpp
+	"zuma_stl.h"
+

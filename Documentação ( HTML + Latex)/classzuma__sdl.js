@@ -1,0 +1,28 @@
+var classzuma__sdl =
+[
+    [ "zuma_sdl", "classzuma__sdl.html#a51595cbcc466087449cf9ef37f76d785", null ],
+    [ "~zuma_sdl", "classzuma__sdl.html#a7cef62fa604a94d247bcbf21cf6ed9cc", null ],
+    [ "atirarBola", "classzuma__sdl.html#aebcc1c12e9d2ac2835d7c495fded1771", null ],
+    [ "carregarGraficos", "classzuma__sdl.html#a9cf8b6f90380bedae6b405cd52a7988c", null ],
+    [ "Colisao", "classzuma__sdl.html#a3bfc334e70f51aa2793c032422453a72", null ],
+    [ "desenharBola", "classzuma__sdl.html#af273a0bdfb375cd9e669b12da7f1b8e8", null ],
+    [ "desenharFace", "classzuma__sdl.html#af714b48fd98994b36f681d19b5b96510", null ],
+    [ "desenharJogador", "classzuma__sdl.html#a0de25d9cfd5c9b300e56536ca26c8ec9", null ],
+    [ "desenharLista", "classzuma__sdl.html#adf236bcc2503a2d8e0451f698e7e247e", null ],
+    [ "desenharMapa", "classzuma__sdl.html#a8407f3707be6e973c930e4852f7f80fb", null ],
+    [ "desenharSurface", "classzuma__sdl.html#ad0f67c5de9437a020afae75574e277e2", null ],
+    [ "desenharTexto", "classzuma__sdl.html#a5de9af2a339103353ea3dbbcb9351086", null ],
+    [ "gameFlip", "classzuma__sdl.html#aa2dc38b12536c6ee30a51fe0005b9e00", null ],
+    [ "gameIntro", "classzuma__sdl.html#a4181b604ec6b29b2cbd595e8c96c55aa", null ],
+    [ "gameKey", "classzuma__sdl.html#ac232ec5ebca9dbbb2cfd9a8005c5e3d0", null ],
+    [ "gameRender", "classzuma__sdl.html#ae55b1ed0965a329a41127a1436836efd", null ],
+    [ "gameTick", "classzuma__sdl.html#ac83595b1c84d14e405296487ade69296", null ],
+    [ "gerarBackground", "classzuma__sdl.html#aef24083cca4f17502b4bd725b47e017e", null ],
+    [ "gerarBola", "classzuma__sdl.html#a9cf3e7c9f0a2b9f39eecf25c7613715f", null ],
+    [ "Grafico", "classzuma__sdl.html#a1af55cf98d8662190afb75393e4fbfa4", null ],
+    [ "movimentarLista", "classzuma__sdl.html#a70dff88f06adecbc03583e6ef9a79d99", null ],
+    [ "movimentarPlayer", "classzuma__sdl.html#adcff947f473b2137b0f0e82351c62e97", null ],
+    [ "inCreditos", "classzuma__sdl.html#ad0c36e4dcdfc59e16db4a7b2db519577", null ],
+    [ "inGame", "classzuma__sdl.html#ac008b710207dd859a50a85a87426afb5", null ],
+    [ "inIntro", "classzuma__sdl.html#aa91d7982e9cad67410a08585271f1e77", null ]
+];

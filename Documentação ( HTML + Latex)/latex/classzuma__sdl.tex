@@ -1,0 +1,279 @@
+\hypertarget{classzuma__sdl}{\section{zuma\-\_\-sdl Class Reference}
+\label{classzuma__sdl}\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classzuma__sdl_a51595cbcc466087449cf9ef37f76d785}{zuma\-\_\-sdl} (int x, int y, \hyperlink{classzuma__stl}{zuma\-\_\-stl} $\ast$a)
+\item 
+\hyperlink{classzuma__sdl_a7cef62fa604a94d247bcbf21cf6ed9cc}{$\sim$zuma\-\_\-sdl} ()
+\item 
+void \hyperlink{classzuma__sdl_aef24083cca4f17502b4bd725b47e017e}{gerar\-Background} ()
+\item 
+void \hyperlink{classzuma__sdl_aa2dc38b12536c6ee30a51fe0005b9e00}{game\-Flip} ()
+\item 
+void \hyperlink{classzuma__sdl_ac232ec5ebca9dbbb2cfd9a8005c5e3d0}{game\-Key} ()
+\item 
+void \hyperlink{classzuma__sdl_ac83595b1c84d14e405296487ade69296}{game\-Tick} (\hyperlink{classzuma__stl}{zuma\-\_\-stl} $\ast$b)
+\item 
+void \hyperlink{classzuma__sdl_a0de25d9cfd5c9b300e56536ca26c8ec9}{desenhar\-Jogador} (int x, int y, int n)
+\item 
+void \hyperlink{classzuma__sdl_adf236bcc2503a2d8e0451f698e7e247e}{desenhar\-Lista} (\hyperlink{classzuma__stl}{zuma\-\_\-stl} $\ast$b)
+\item 
+void \hyperlink{classzuma__sdl_af714b48fd98994b36f681d19b5b96510}{desenhar\-Face} ()
+\item 
+void \hyperlink{classzuma__sdl_af273a0bdfb375cd9e669b12da7f1b8e8}{desenhar\-Bola} ()
+\item 
+void \hyperlink{classzuma__sdl_a8407f3707be6e973c930e4852f7f80fb}{desenhar\-Mapa} (\hyperlink{classzuma__stl}{zuma\-\_\-stl} $\ast$b)
+\item 
+void \hyperlink{classzuma__sdl_a5de9af2a339103353ea3dbbcb9351086}{desenhar\-Texto} (std\-::string text, int x, int y, int f\-\_\-size, char r, char g, char b)
+\item 
+void \hyperlink{classzuma__sdl_a9cf8b6f90380bedae6b405cd52a7988c}{carregar\-Graficos} ()
+\item 
+S\-D\-L\-\_\-\-Surface $\ast$ \hyperlink{classzuma__sdl_a1af55cf98d8662190afb75393e4fbfa4}{Grafico} (std\-::string filename)
+\item 
+void \hyperlink{classzuma__sdl_ad0f67c5de9437a020afae75574e277e2}{desenhar\-Surface} (int x, int y, S\-D\-L\-\_\-\-Surface $\ast$source, S\-D\-L\-\_\-\-Surface $\ast$destination, S\-D\-L\-\_\-\-Rect $\ast$clip=N\-U\-L\-L)
+\item 
+void \hyperlink{classzuma__sdl_adcff947f473b2137b0f0e82351c62e97}{movimentar\-Player} ()
+\item 
+void \hyperlink{classzuma__sdl_a70dff88f06adecbc03583e6ef9a79d99}{movimentar\-Lista} (\hyperlink{classzuma__stl}{zuma\-\_\-stl} $\ast$b)
+\item 
+void \hyperlink{classzuma__sdl_aebcc1c12e9d2ac2835d7c495fded1771}{atirar\-Bola} ()
+\item 
+void \hyperlink{classzuma__sdl_a3bfc334e70f51aa2793c032422453a72}{Colisao} (int x1, int y1, int x2, int y2, int pos, S\-D\-L\-\_\-\-Rect $\ast$a, S\-D\-L\-\_\-\-Rect $\ast$b, \hyperlink{classzuma__stl}{zuma\-\_\-stl} $\ast$c)
+\item 
+void \hyperlink{classzuma__sdl_a9cf3e7c9f0a2b9f39eecf25c7613715f}{gerar\-Bola} ()
+\item 
+void \hyperlink{classzuma__sdl_ae55b1ed0965a329a41127a1436836efd}{game\-Render} (\hyperlink{classzuma__stl}{zuma\-\_\-stl} $\ast$game)
+\item 
+void \hyperlink{classzuma__sdl_a4181b604ec6b29b2cbd595e8c96c55aa}{game\-Intro} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classzuma__sdl_aa91d7982e9cad67410a08585271f1e77}{bool {\bfseries in\-Intro} = false}\label{classzuma__sdl_aa91d7982e9cad67410a08585271f1e77}
+
+\item 
+\hypertarget{classzuma__sdl_ac008b710207dd859a50a85a87426afb5}{bool {\bfseries in\-Game} = false}\label{classzuma__sdl_ac008b710207dd859a50a85a87426afb5}
+
+\item 
+\hypertarget{classzuma__sdl_ad0c36e4dcdfc59e16db4a7b2db519577}{bool {\bfseries in\-Creditos} = false}\label{classzuma__sdl_ad0c36e4dcdfc59e16db4a7b2db519577}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classzuma__sdl_a51595cbcc466087449cf9ef37f76d785}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!zuma\-\_\-sdl@{zuma\-\_\-sdl}}
+\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{zuma\-\_\-sdl}]{\setlength{\rightskip}{0pt plus 5cm}zuma\-\_\-sdl\-::zuma\-\_\-sdl (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y, }
+\item[{{\bf zuma\-\_\-stl} $\ast$}]{a}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_a51595cbcc466087449cf9ef37f76d785}
+Inicializa todas as funções do S\-D\-L
+
+Inicializa a Fonte !
+
+Verificar se realmente inicializou a tela
+
+Nome do jogo
+
+Pega tempo em M\-S do Sistema
+
+Inicializa o \hyperlink{class_timer}{Timer}
+
+Inicia o F\-P\-S
+
+0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Cria caminho da lista
+
+Número de vidas \hypertarget{classzuma__sdl_a7cef62fa604a94d247bcbf21cf6ed9cc}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!$\sim$zuma\-\_\-sdl@{$\sim$zuma\-\_\-sdl}}
+\index{$\sim$zuma\-\_\-sdl@{$\sim$zuma\-\_\-sdl}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{$\sim$zuma\-\_\-sdl}]{\setlength{\rightskip}{0pt plus 5cm}zuma\-\_\-sdl\-::$\sim$zuma\-\_\-sdl (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_a7cef62fa604a94d247bcbf21cf6ed9cc}
+Limpa da Memoria os gráficos
+
+Finaliza fonte e S\-D\-L 
+
+\subsection{Member Function Documentation}
+\hypertarget{classzuma__sdl_aebcc1c12e9d2ac2835d7c495fded1771}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!atirar\-Bola@{atirar\-Bola}}
+\index{atirar\-Bola@{atirar\-Bola}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{atirar\-Bola}]{\setlength{\rightskip}{0pt plus 5cm}void zuma\-\_\-sdl\-::atirar\-Bola (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_aebcc1c12e9d2ac2835d7c495fded1771}
+Movimento da bola que foi atirada \hypertarget{classzuma__sdl_a9cf8b6f90380bedae6b405cd52a7988c}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!carregar\-Graficos@{carregar\-Graficos}}
+\index{carregar\-Graficos@{carregar\-Graficos}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{carregar\-Graficos}]{\setlength{\rightskip}{0pt plus 5cm}void zuma\-\_\-sdl\-::carregar\-Graficos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_a9cf8b6f90380bedae6b405cd52a7988c}
+Carrega os gráficos do jogo \hypertarget{classzuma__sdl_a3bfc334e70f51aa2793c032422453a72}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!Colisao@{Colisao}}
+\index{Colisao@{Colisao}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{Colisao}]{\setlength{\rightskip}{0pt plus 5cm}void zuma\-\_\-sdl\-::\-Colisao (
+\begin{DoxyParamCaption}
+\item[{int}]{x1, }
+\item[{int}]{y1, }
+\item[{int}]{x2, }
+\item[{int}]{y2, }
+\item[{int}]{pos, }
+\item[{S\-D\-L\-\_\-\-Rect $\ast$}]{a, }
+\item[{S\-D\-L\-\_\-\-Rect $\ast$}]{b, }
+\item[{{\bf zuma\-\_\-stl} $\ast$}]{c}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_a3bfc334e70f51aa2793c032422453a72}
+Verificar Colisão Casos que não vai haver colisão \hypertarget{classzuma__sdl_af273a0bdfb375cd9e669b12da7f1b8e8}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!desenhar\-Bola@{desenhar\-Bola}}
+\index{desenhar\-Bola@{desenhar\-Bola}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{desenhar\-Bola}]{\setlength{\rightskip}{0pt plus 5cm}void zuma\-\_\-sdl\-::desenhar\-Bola (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_af273a0bdfb375cd9e669b12da7f1b8e8}
+Desenha a bola que foi lançada \hypertarget{classzuma__sdl_af714b48fd98994b36f681d19b5b96510}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!desenhar\-Face@{desenhar\-Face}}
+\index{desenhar\-Face@{desenhar\-Face}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{desenhar\-Face}]{\setlength{\rightskip}{0pt plus 5cm}void zuma\-\_\-sdl\-::desenhar\-Face (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_af714b48fd98994b36f681d19b5b96510}
+Desenha a face na tela \hypertarget{classzuma__sdl_a0de25d9cfd5c9b300e56536ca26c8ec9}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!desenhar\-Jogador@{desenhar\-Jogador}}
+\index{desenhar\-Jogador@{desenhar\-Jogador}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{desenhar\-Jogador}]{\setlength{\rightskip}{0pt plus 5cm}void zuma\-\_\-sdl\-::desenhar\-Jogador (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y, }
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_a0de25d9cfd5c9b300e56536ca26c8ec9}
+Atributos para desenhar jogador, tamanho do retangulo, posição do gráfico e etc \hypertarget{classzuma__sdl_adf236bcc2503a2d8e0451f698e7e247e}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!desenhar\-Lista@{desenhar\-Lista}}
+\index{desenhar\-Lista@{desenhar\-Lista}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{desenhar\-Lista}]{\setlength{\rightskip}{0pt plus 5cm}void zuma\-\_\-sdl\-::desenhar\-Lista (
+\begin{DoxyParamCaption}
+\item[{{\bf zuma\-\_\-stl} $\ast$}]{b}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_adf236bcc2503a2d8e0451f698e7e247e}
+Desenha a Lista na tela \hypertarget{classzuma__sdl_a8407f3707be6e973c930e4852f7f80fb}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!desenhar\-Mapa@{desenhar\-Mapa}}
+\index{desenhar\-Mapa@{desenhar\-Mapa}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{desenhar\-Mapa}]{\setlength{\rightskip}{0pt plus 5cm}void zuma\-\_\-sdl\-::desenhar\-Mapa (
+\begin{DoxyParamCaption}
+\item[{{\bf zuma\-\_\-stl} $\ast$}]{b}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_a8407f3707be6e973c930e4852f7f80fb}
+Desenha o Sumidouro \hypertarget{classzuma__sdl_ad0f67c5de9437a020afae75574e277e2}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!desenhar\-Surface@{desenhar\-Surface}}
+\index{desenhar\-Surface@{desenhar\-Surface}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{desenhar\-Surface}]{\setlength{\rightskip}{0pt plus 5cm}void zuma\-\_\-sdl\-::desenhar\-Surface (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y, }
+\item[{S\-D\-L\-\_\-\-Surface $\ast$}]{source, }
+\item[{S\-D\-L\-\_\-\-Surface $\ast$}]{destination, }
+\item[{S\-D\-L\-\_\-\-Rect $\ast$}]{clip = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_ad0f67c5de9437a020afae75574e277e2}
+Desenha na tela o gráfico \hypertarget{classzuma__sdl_a5de9af2a339103353ea3dbbcb9351086}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!desenhar\-Texto@{desenhar\-Texto}}
+\index{desenhar\-Texto@{desenhar\-Texto}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{desenhar\-Texto}]{\setlength{\rightskip}{0pt plus 5cm}void zuma\-\_\-sdl\-::desenhar\-Texto (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{text, }
+\item[{int}]{x, }
+\item[{int}]{y, }
+\item[{int}]{f\-\_\-size, }
+\item[{char}]{r, }
+\item[{char}]{g, }
+\item[{char}]{b}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_a5de9af2a339103353ea3dbbcb9351086}
+Desenha o texto na tela Removido por existir vazamento de memória ! \hypertarget{classzuma__sdl_aa2dc38b12536c6ee30a51fe0005b9e00}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!game\-Flip@{game\-Flip}}
+\index{game\-Flip@{game\-Flip}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{game\-Flip}]{\setlength{\rightskip}{0pt plus 5cm}void zuma\-\_\-sdl\-::game\-Flip (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_aa2dc38b12536c6ee30a51fe0005b9e00}
+Atualiza a tela \hypertarget{classzuma__sdl_a4181b604ec6b29b2cbd595e8c96c55aa}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!game\-Intro@{game\-Intro}}
+\index{game\-Intro@{game\-Intro}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{game\-Intro}]{\setlength{\rightskip}{0pt plus 5cm}void zuma\-\_\-sdl\-::game\-Intro (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_a4181b604ec6b29b2cbd595e8c96c55aa}
+Desenha a Introdução do Jogo \hypertarget{classzuma__sdl_ac232ec5ebca9dbbb2cfd9a8005c5e3d0}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!game\-Key@{game\-Key}}
+\index{game\-Key@{game\-Key}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{game\-Key}]{\setlength{\rightskip}{0pt plus 5cm}void zuma\-\_\-sdl\-::game\-Key (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_ac232ec5ebca9dbbb2cfd9a8005c5e3d0}
+Pega a tecla que foi pressionada \hypertarget{classzuma__sdl_ae55b1ed0965a329a41127a1436836efd}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!game\-Render@{game\-Render}}
+\index{game\-Render@{game\-Render}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{game\-Render}]{\setlength{\rightskip}{0pt plus 5cm}void zuma\-\_\-sdl\-::game\-Render (
+\begin{DoxyParamCaption}
+\item[{{\bf zuma\-\_\-stl} $\ast$}]{game}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_ae55b1ed0965a329a41127a1436836efd}
+Renderiza todo o Zuma Renderiza o Background
+
+Renderiza a Introdução do jogo
+
+Renderiza os gráficos
+
+Atributos do Game, Tick, Controles e Atualização de Tela \hypertarget{classzuma__sdl_ac83595b1c84d14e405296487ade69296}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!game\-Tick@{game\-Tick}}
+\index{game\-Tick@{game\-Tick}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{game\-Tick}]{\setlength{\rightskip}{0pt plus 5cm}void zuma\-\_\-sdl\-::game\-Tick (
+\begin{DoxyParamCaption}
+\item[{{\bf zuma\-\_\-stl} $\ast$}]{b}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_ac83595b1c84d14e405296487ade69296}
+Cuida da Parte do Tick(tempo em ms) Animações
+
+Anima a Lista
+
+Anima o Personagem \hypertarget{classzuma__sdl_aef24083cca4f17502b4bd725b47e017e}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!gerar\-Background@{gerar\-Background}}
+\index{gerar\-Background@{gerar\-Background}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{gerar\-Background}]{\setlength{\rightskip}{0pt plus 5cm}void zuma\-\_\-sdl\-::gerar\-Background (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_aef24083cca4f17502b4bd725b47e017e}
+Coloca a cor na tela do jogo \hypertarget{classzuma__sdl_a9cf3e7c9f0a2b9f39eecf25c7613715f}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!gerar\-Bola@{gerar\-Bola}}
+\index{gerar\-Bola@{gerar\-Bola}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{gerar\-Bola}]{\setlength{\rightskip}{0pt plus 5cm}void zuma\-\_\-sdl\-::gerar\-Bola (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_a9cf3e7c9f0a2b9f39eecf25c7613715f}
+Gera duas bolas aleatorias para o Player \hypertarget{classzuma__sdl_a1af55cf98d8662190afb75393e4fbfa4}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!Grafico@{Grafico}}
+\index{Grafico@{Grafico}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{Grafico}]{\setlength{\rightskip}{0pt plus 5cm}S\-D\-L\-\_\-\-Surface $\ast$ zuma\-\_\-sdl\-::\-Grafico (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{filename}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_a1af55cf98d8662190afb75393e4fbfa4}
+Carrega o grafico na memoria \hypertarget{classzuma__sdl_a70dff88f06adecbc03583e6ef9a79d99}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!movimentar\-Lista@{movimentar\-Lista}}
+\index{movimentar\-Lista@{movimentar\-Lista}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{movimentar\-Lista}]{\setlength{\rightskip}{0pt plus 5cm}void zuma\-\_\-sdl\-::movimentar\-Lista (
+\begin{DoxyParamCaption}
+\item[{{\bf zuma\-\_\-stl} $\ast$}]{b}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_a70dff88f06adecbc03583e6ef9a79d99}
+Movimenta a Lista Verificar se a fila tá em espera ou n \hypertarget{classzuma__sdl_adcff947f473b2137b0f0e82351c62e97}{\index{zuma\-\_\-sdl@{zuma\-\_\-sdl}!movimentar\-Player@{movimentar\-Player}}
+\index{movimentar\-Player@{movimentar\-Player}!zuma_sdl@{zuma\-\_\-sdl}}
+\subsubsection[{movimentar\-Player}]{\setlength{\rightskip}{0pt plus 5cm}void zuma\-\_\-sdl\-::movimentar\-Player (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classzuma__sdl_adcff947f473b2137b0f0e82351c62e97}
+Movimenta Personagem para Esquerda ou Direta 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/\-Users/\-Marcel/\-Desktop/\-E\-D\-B -\/ Zuma -\/ Final/\-Zuma/zuma\-\_\-sdl.\-h\item 
+C\-:/\-Users/\-Marcel/\-Desktop/\-E\-D\-B -\/ Zuma -\/ Final/\-Zuma/zuma\-\_\-sdl.\-cpp\end{DoxyCompactItemize}

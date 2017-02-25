@@ -1,0 +1,28 @@
+var classzuma__stl =
+[
+    [ "zuma_stl", "classzuma__stl.html#a9922459c2119b87caba7b7c3c9c36df2", null ],
+    [ "~zuma_stl", "classzuma__stl.html#aeeb4cfc739dec153ab53c6d473790066", null ],
+    [ "carregarMapa", "classzuma__stl.html#aba4778b17ed1e0aa5831c115cc09804a", null ],
+    [ "carregarPontuacao", "classzuma__stl.html#af714d610e3292ed5c1c25d9f6dbae8cd", null ],
+    [ "combo", "classzuma__stl.html#a5ce1bd666ffdb6506cf79e44a5aac4da", null ],
+    [ "comboaux", "classzuma__stl.html#a226a73ff6d5982d0bfe2b538d30b1819", null ],
+    [ "gerarBola", "classzuma__stl.html#aeeb0d6478224d87b6be52ec50b136d48", null ],
+    [ "getLista", "classzuma__stl.html#a177b4fbdd2e97357dec2eafe099f2c74", null ],
+    [ "inserirBola", "classzuma__stl.html#a3951f94f501e6206dd98b0e27b34c137", null ],
+    [ "inserirBola", "classzuma__stl.html#aadf5d9683d9d1a44b2c41427dc1378df", null ],
+    [ "removerBola", "classzuma__stl.html#a8c2c94b4443187de058c3e86739ec44b", null ],
+    [ "salvarPontucao", "classzuma__stl.html#abe37e84984990a741a48ed1a25cab8d0", null ],
+    [ "verificarBola", "classzuma__stl.html#aeb3a059337daf5d58f7b8ffa9357b2e4", null ],
+    [ "aFila", "classzuma__stl.html#a8c05b94d14609a0192087d8ac7ab35f8", null ],
+    [ "aux", "classzuma__stl.html#a6a3e47d202b0d3e96dae29d14c3cc171", null ],
+    [ "aux2", "classzuma__stl.html#ac1b4c5a8c346584c6a63d9f94e751070", null ],
+    [ "c_bola", "classzuma__stl.html#a68a26a1bf6ff67c5ff004244360160ad", null ],
+    [ "game_map", "classzuma__stl.html#a18b1c5e4e5a3061b86316e12dde4cb7e", null ],
+    [ "melhorPontuacao", "classzuma__stl.html#a35ed2e488c59b3e40b008d6878edc5d6", null ],
+    [ "nBolas", "classzuma__stl.html#a88cf6c2d190b07350dabf9cc1b43a628", null ],
+    [ "t_x", "classzuma__stl.html#a87e4a9e2d7d6b09ab6021adf90a7983d", null ],
+    [ "t_y", "classzuma__stl.html#ac62272d3bbd9033a24efe236dbde58c8", null ],
+    [ "tCaminho", "classzuma__stl.html#acd01d07649db751d3d179c7bc85bc0c6", null ],
+    [ "Z_bola", "classzuma__stl.html#aafd53130071fc5608d66fa5cb3be87c3", null ],
+    [ "Z_it", "classzuma__stl.html#ae2173d97ee03566be47fcb12b9d5f863", null ]
+];
