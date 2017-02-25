@@ -12,14 +12,14 @@ Although the code probably won't look as good (due to those being my first progr
 
 Along follow some of the methods that may be of use in similar projects:
 
-# Core
+### Core
 
 - Soft movement implementation
 - Collision
 - Time-based frame updating for underlying data and view sync
 - Route-following movement
 
-# Other
+### Other
 
 - Background and custom sprites loading
 - Text rendering over the screen
